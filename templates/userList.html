@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}User list{% endblock %}
+
+{% block content %}
+<html>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h2>Lista svih registriranih korisnika</h2>
+        </div>
+        <ul>
+            {% for entry in entries %}
+            <li>
+                <p> <u>id:</u> {{ entry.id }}<br>
+                    <u>username:</u> {{ entry.username }}<br>
+                    <u>email:</u> {{ entry.email }}<br>
+                    <u>visina:</u> {{ entry.visina }}<br>
+                    <u>tezina:</u> {{ entry.tezina }}<br>
+                    <u>godine:</u> {{ entry.godine }}<br>
+                    <a href="/editUser?id={{ entry.id }}">Edit user</a>
+                    <a href="/deleteUser?id={{ entry.id }}">Delete user profile</a></p>
+            </li>
+            {% else %}
+            <li> Nema zapisanih korisnika </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
+{% endblock %}

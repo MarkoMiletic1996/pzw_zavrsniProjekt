@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Login page{% endblock %}
+
+{% block content %}
+<html>
+<body>
+<div class="container">
+     <div class="page-header">
+        <h2><strong>Upišite se</strong></h2>
+    </div>
+    <p>Upisi se vrše svakim radnim danom, a možete se upisati i online.</p>
+
+        <form action="/login" method="get">
+            <div class="form-group">
+                <p>Username:</p>
+                <p><input type="text" name="username"/></p>
+                <p>Email:</p>
+                <p><input type="text" name="email"/></p>
+                <p>Visina:</p>
+                <p><input type="text" name="visina"/></p>
+                <p>Težina:</p>
+                <p><input type="text" name="tezina"/></p>
+                <p>Godina:</p>
+                <p><input type="text" name="godine"/></p>
+                <br>
+                <p><input type="submit" value="Submit"/></p>
+            </div>
+        </form>
+    </form>
+
+</div>
+</body>
+</html>
+{% endblock %}
