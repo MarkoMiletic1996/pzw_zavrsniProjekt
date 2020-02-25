@@ -1,4 +1,4 @@
-# Projekt iz kolegija <b>Programiranje za web</b>
+# Projekt iz kolegija <u>Programiranje za web</u>
 
 Napravio sam web stranicu za teretanu. Korisnik ima mogućnost vidjeti samu 
 unutrašnjost teretane, sprave koje se nalaze unutar i otprilike doživjeti
