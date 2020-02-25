@@ -14,7 +14,7 @@ obrisati ili uređivati.
 Kad se pokrene aplikacija, prikaže se ..
  ![](static/images/pocetna.png)
  <br />
- Klikom na <b>Upiši se</b> otvara se dio stranice gdje korisnik može upisati svoje podatke, 
+Klikom na <b>Upiši se</b> otvara se dio stranice gdje korisnik može upisati svoje podatke, 
  a to izgleda
   ![](static/images/upis.png)
 <br />
