@@ -12,8 +12,8 @@ obrisati ili uređivati.
 
 ## Pokretanje aplikacije 
 Pri izradi web stranice sam koristio program PyCharm.<br />
-Prvo se pokrene datoteka database.py da se kreire baza podataka, tj tablica u koju se spremaju podatci koji se unose. 
-A poslije toga se pokrene datoteka app.py da se dobije poveznica na kojoj možemo vidjeti web stranicu.
+Prvo se pokrene datoteka <b>database.py</b> da se kreira baza podataka, tj tablica u koju se spremaju podatci koji se unose. 
+A poslije toga se pokrene datoteka </b>app.py</b> da se dobije poveznica na kojoj možemo vidjeti web stranicu.
 
 ## Izgled stranice
 Kad se pokrene aplikacija, prikaže se ..
