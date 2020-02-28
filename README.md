@@ -14,6 +14,14 @@ obrisati ili uređivati.
 Pri izradi web stranice sam koristio program PyCharm.<br />
 Prvo se pokrene datoteka <b>database.py</b> da se kreira baza podataka, tj tablica u koju se spremaju podatci koji se unose. 
 A poslije toga se pokrene datoteka <b>app.py</b> da se dobije poveznica na kojoj možemo vidjeti web stranicu.
+<br />
+-> kreiranje virtualne okoline: python -m venv virtualEnvironment <br />
+-> aktivacija virtualne okoline: virtualEnvironment\Scripts\activate.bat <br />
+-> instalacija Flask-a: pip install Flask <br />
+-> instalacija korištenih alata: pip install -r requirements.txt <br />
+-> pokretanje: set FLASK_APP=app.py ; flask run 
+<br />
+<br />
 
 ## Izgled stranice
 Kad se pokrene aplikacija, prikaže se ..
